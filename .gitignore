@@ -2,6 +2,7 @@
 node_modules/
 
 # Arquivos de ambiente
+UTIL/
 .env
 .env.local
 .env.development
