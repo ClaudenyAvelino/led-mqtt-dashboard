@@ -86,7 +86,7 @@ const char* mqtt_server = "broker.hivemq.com";
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-const int ledPin = 2;
+const int ledPin = D5;
 String ledState = "off";
 ~~~
 > Funções setup_wifi(), reconnect() e callback() conforme exemplo do código principal
