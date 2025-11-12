@@ -1,0 +1,28 @@
+.container {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.btn-on {
+  background-color: #ff5555;
+  color: white;
+}
+
+.btn-off {
+  background-color: #4caf50;
+  color: white;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 18px;
+}
