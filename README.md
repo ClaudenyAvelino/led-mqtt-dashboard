@@ -1,7 +1,17 @@
+## 👨‍🏫 Professor
+
+**Nome:** Claudeny Avelino  
+**E-mail:** claudeny.avelino@gmail.com  
+**Turma:** JOVEM-TECH-ReactJS-ESP8266
+
 # Controle de LED via MQTT (React + ESP8266)
 
 Este projeto permite controlar um LED conectado a um **ESP8266** via **MQTT**, usando uma interface web construída com **React**.  
 O backend MQTT pode ser hospedado no HiveMQ ou outro broker compatível.  
+
+## 🧾 Exemplo de Interface Web
+
+![Projeto](/src/assets/reactMqtt.png "Monitor ESP8266")
 
 O projeto inclui:
 
