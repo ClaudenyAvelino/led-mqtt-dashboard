@@ -3,7 +3,8 @@ import mqtt from "mqtt";
 import "./styles.css";
 
 function App() {
-  const MQTT_URL = import.meta.env.VITE_MQTT_URL;
+  //const MQTT_URL = import.meta.env.VITE_MQTT_URL;
+  const MQTT_URL = "wss://broker.hivemq.cloud:8884/mqtt"; // WebSocket seguro
   const OPTIONS = {
     username: import.meta.env.VITE_MQTT_USERNAME,
     password: import.meta.env.VITE_MQTT_PASSWORD,
