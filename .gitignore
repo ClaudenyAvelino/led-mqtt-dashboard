@@ -1,0 +1,12 @@
+# Ignorar dependências
+node_modules/
+
+# Arquivos de ambiente
+UTIL/
+.env
+.env.local
+.env.development
+.env.production
+
+# Build
+dist/
